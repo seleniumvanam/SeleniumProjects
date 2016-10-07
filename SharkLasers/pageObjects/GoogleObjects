@@ -1,0 +1,23 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+
+public class GoogleObjects {
+	
+	/*
+	 *  Gmail Locators
+	 */
+	public static By gmail_id = By.xpath(".//*[@id='Email']");
+	public static By next = By.xpath(".//*[@id='next']");
+	public static By gmail_pwd = By.xpath(".//*[@id='Passwd']");
+	public static By gmail_signIn = By.xpath(".//*[@id='signIn']");
+	public static By gmail_compose = By.xpath(".//div[text()='COMPOSE']");
+	public static By gmail_toMail = By.xpath(".//*[@name='to']");
+	public static By gmail_subject = By.xpath(".//input[@name='subjectbox']");
+	public static By gmail_send = By.xpath(".//*[text()='Send']");
+	public static By gmail_account= By.xpath(".//a[starts-with(@title,'Google Account')]");
+	public static By gmail_signout = By.xpath(".//a[text()='Sign out']");
+	
+	
+	
+}
